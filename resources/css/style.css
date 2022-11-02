@@ -40,8 +40,10 @@ body{
 
     
 }
-.video{
-    padding:1rem .2rem;
+.video-container{
+    width: 100%;
+    padding:1rem .1rem;
+
     text-align: center;
 }
 .camp{
@@ -99,7 +101,7 @@ footer .copy{
     color:gray;
     font-weight: 300;
     letter-spacing:5px;
-    margin-top: 1rem;
+    margin-top: 2rem;
 }
 .copy span{
     padding:0 .2rem;
@@ -110,4 +112,7 @@ footer .copy{
         font-weight: 300;
         color:aqua;
     } 
+    footer h2{
+        font-size: 2rem;
+    }
 }
