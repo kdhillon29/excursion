@@ -6,29 +6,108 @@
 }
 
 html{
-    font-family:'Verdana' ;
-    font-size: 14px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-size: 10px;
+    color:white;
+    opacity:.8;
 }
 body{
     background-color: black;
-    text-align: center;
+    /* text-align: center; */
 }
-header{
-    padding:5rem 2rem;
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:5rem .2rem;
     text-align: center;
     color:white;
-    margin: 0 auto;
+    margin: .2rem ;
 }
-header h1{
-    font-weight: normal;
-    font-size: 50px;
-    text-align: center;
-    margin-bottom: 2rem;
+ .head h2{
+     font-size: 2.5rem;
+     font-weight:600;
+     text-align: center;
+     /* word-spacing:1rem; */
+     letter-spacing: .5rem;
+    margin-bottom: 3rem;
    
 }
-header a{
+ a{
     color: aquamarine;
     font-size: 16px;
-    padding:5rem ;
+
     
+}
+.video{
+    padding:1rem .2rem;
+    text-align: center;
+}
+.camp{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    text-align: center;
+}
+.camp .img-container{
+    width:80%;
+    
+}
+.img-container img{
+    width:100%;
+    height:auto;
+    overflow: hidden;
+    padding:.1rem 0;
+}
+.camp h2{
+    font-size: 42px;
+    font-weight: 300;
+}
+.camp p{
+    font-size: 21px;
+    color:gray;
+    margin:2rem 1rem;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+footer h2{
+    font-size:36px;
+    font-weight: 600;
+    word-spacing: 1.2;
+    margin:2rem 0;
+    text-align: center;
+}
+footer img{
+    margin:1rem ;
+}
+footer a{
+    font-weight: 600;
+}
+footer .copy{
+    align-self: flex-end;
+    justify-self: end;
+    font-size: 1.5rem;
+    color:gray;
+    font-weight: 300;
+    letter-spacing:5px;
+    margin-top: 1rem;
+}
+.copy span{
+    padding:0 .2rem;
+}
+@media screen and (max-width:578px){
+    .head h2{
+        font-size:2rem;
+        font-weight: 300;
+        color:aqua;
+    } 
 }
